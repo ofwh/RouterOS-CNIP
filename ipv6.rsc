@@ -1,4 +1,4 @@
-# Update at 2025-04-20 06:42:50
+# Update at 2025-04-21 06:45:37
 /ipv6 firewall address-list remove [/ipv6 firewall address-list find list=CN]
 /ipv6 firewall address-list
 add address=2001:250::/35 list=CN
