@@ -1,4 +1,4 @@
-# Update at 2025-08-06 06:55:35
+# Update at 2025-08-07 06:55:05
 /ipv6 firewall address-list remove [/ipv6 firewall address-list find list=CN]
 /ipv6 firewall address-list
 add address=2001:250::/35 list=CN
@@ -1580,7 +1580,6 @@ add address=2405:f580::/32 list=CN
 add address=2405:f6c0::/32 list=CN
 add address=2405:f940::/32 list=CN
 add address=2405:fdc0::/32 list=CN
-add address=2405:fe80::/32 list=CN
 add address=2405:ff80::/32 list=CN
 add address=2406:40::/32 list=CN
 add address=2406:80::/32 list=CN
