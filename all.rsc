@@ -1,4 +1,4 @@
-# Update at 2025-09-25 06:46:56
+# Update at 2025-09-26 06:45:24
 /ip firewall address-list remove [/ip firewall address-list find list=CN]
 /ip firewall address-list
 add address=1.1.8.0/24 list=CN
@@ -1776,11 +1776,7 @@ add address=113.45.104.0/21 list=CN
 add address=113.45.112.0/22 list=CN
 add address=113.45.120.0/22 list=CN
 add address=113.45.128.0/17 list=CN
-add address=113.46.0.0/17 list=CN
-add address=113.46.128.0/18 list=CN
-add address=113.46.192.0/19 list=CN
-add address=113.46.224.0/20 list=CN
-add address=113.46.240.0/21 list=CN
+add address=113.46.0.0/16 list=CN
 add address=113.47.0.0/18 list=CN
 add address=113.47.64.0/19 list=CN
 add address=113.47.96.0/21 list=CN
@@ -2621,7 +2617,6 @@ add address=123.58.60.0/22 list=CN
 add address=123.58.64.0/24 list=CN
 add address=123.58.96.0/19 list=CN
 add address=123.58.160.0/20 list=CN
-add address=123.58.179.0/24 list=CN
 add address=123.58.180.0/22 list=CN
 add address=123.58.184.0/24 list=CN
 add address=123.58.186.0/23 list=CN
@@ -5535,6 +5530,7 @@ add address=2a0b:2542::/48 list=CN
 add address=2a0b:4b81:1001::/48 list=CN
 add address=2a0b:4e07:b8::/47 list=CN
 add address=2a0c:9a40:84e0::/48 list=CN
+add address=2a0c:9a40:8fc1::/48 list=CN
 add address=2a0c:b641:571::/48 list=CN
 add address=2a0c:b641:d40::/44 list=CN
 add address=2a0e:97c0:5ef::/48 list=CN
@@ -5744,12 +5740,14 @@ add address=2a14:7583:f201::/48 list=CN
 add address=2a14:7583:f203::/48 list=CN
 add address=2a14:7583:f300::/46 list=CN
 add address=2a14:7583:f304::/48 list=CN
+add address=2a14:7583:f460::/44 list=CN
 add address=2a14:7583:f4fe::/48 list=CN
 add address=2a14:7583:f500::/48 list=CN
 add address=2a14:7583:f701::/48 list=CN
 add address=2a14:7583:f702::/47 list=CN
 add address=2a14:7583:f704::/46 list=CN
-add address=2a14:7583:f708::/48 list=CN
+add address=2a14:7583:f708::/47 list=CN
+add address=2a14:7583:f70a::/48 list=CN
 add address=2a14:7583:f743::/48 list=CN
 add address=2a14:7583:f764::/48 list=CN
 add address=2a14:7584::/36 list=CN
