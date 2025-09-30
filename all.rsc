@@ -1,4 +1,4 @@
-# Update at 2025-09-29 06:48:36
+# Update at 2025-09-30 06:47:02
 /ip firewall address-list remove [/ip firewall address-list find list=CN]
 /ip firewall address-list
 add address=1.1.8.0/24 list=CN
@@ -1368,7 +1368,7 @@ add address=103.212.4.0/22 list=CN
 add address=103.212.12.0/22 list=CN
 add address=103.212.48.0/23 list=CN
 add address=103.212.109.0/24 list=CN
-add address=103.213.48.0/22 list=CN
+add address=103.213.48.0/21 list=CN
 add address=103.213.60.0/22 list=CN
 add address=103.213.64.0/19 list=CN
 add address=103.213.96.0/22 list=CN
@@ -1479,7 +1479,6 @@ add address=103.238.204.0/22 list=CN
 add address=103.239.68.0/22 list=CN
 add address=103.239.152.0/22 list=CN
 add address=103.239.184.0/23 list=CN
-add address=103.239.187.0/24 list=CN
 add address=103.239.192.0/22 list=CN
 add address=103.239.204.0/22 list=CN
 add address=103.239.224.0/22 list=CN
@@ -1929,6 +1928,7 @@ add address=115.175.0.0/18 list=CN
 add address=115.175.64.0/19 list=CN
 add address=115.175.104.0/22 list=CN
 add address=115.175.108.0/23 list=CN
+add address=115.175.110.0/24 list=CN
 add address=115.175.112.0/20 list=CN
 add address=115.175.128.0/18 list=CN
 add address=115.175.192.0/19 list=CN
@@ -3593,7 +3593,9 @@ add address=203.166.186.0/23 list=CN
 add address=203.166.188.0/23 list=CN
 add address=203.166.191.0/24 list=CN
 add address=203.168.0.0/22 list=CN
-add address=203.168.8.0/24 list=CN
+add address=203.168.5.0/24 list=CN
+add address=203.168.6.0/23 list=CN
+add address=203.168.8.0/21 list=CN
 add address=203.168.16.0/23 list=CN
 add address=203.168.18.0/24 list=CN
 add address=203.170.58.0/23 list=CN
@@ -4647,6 +4649,7 @@ add address=2406:840:9620::/44 list=CN
 add address=2406:840:9961::/48 list=CN
 add address=2406:840:9962::/47 list=CN
 add address=2406:840:996c::/48 list=CN
+add address=2406:840:a800::/37 list=CN
 add address=2406:840:e080::/44 list=CN
 add address=2406:840:e0cf::/48 list=CN
 add address=2406:840:e0e0::/46 list=CN
@@ -4697,9 +4700,7 @@ add address=2406:840:fda0::/43 list=CN
 add address=2406:840:fdc0::/44 list=CN
 add address=2406:840:fdd1::/48 list=CN
 add address=2406:840:fe27::/48 list=CN
-add address=2406:840:fe90::/46 list=CN
-add address=2406:840:fe94::/48 list=CN
-add address=2406:840:fe96::/47 list=CN
+add address=2406:840:fe90::/45 list=CN
 add address=2406:840:fe98::/46 list=CN
 add address=2406:840:fe9d::/48 list=CN
 add address=2406:840:fe9e::/48 list=CN
@@ -5452,6 +5453,7 @@ add address=240e::/20 list=CN
 add address=2602:2e0:ff::/48 list=CN
 add address=2602:f7ee:ee::/48 list=CN
 add address=2602:f92a:a478::/48 list=CN
+add address=2602:f92a:d1ff::/48 list=CN
 add address=2602:f92a:dead::/48 list=CN
 add address=2602:f92a:e100::/44 list=CN
 add address=2602:f93b:400::/38 list=CN
@@ -5540,7 +5542,6 @@ add address=2a0b:2542::/48 list=CN
 add address=2a0b:4b81:1001::/48 list=CN
 add address=2a0b:4e07:b8::/47 list=CN
 add address=2a0c:9a40:84e0::/48 list=CN
-add address=2a0c:9a40:8fc1::/48 list=CN
 add address=2a0c:9a40:8fc2::/47 list=CN
 add address=2a0c:9a40:8fc4::/48 list=CN
 add address=2a0c:b641:571::/48 list=CN
@@ -5610,6 +5611,7 @@ add address=2a0f:7803:fe81::/48 list=CN
 add address=2a0f:7803:fe82::/48 list=CN
 add address=2a0f:7804:f650::/44 list=CN
 add address=2a0f:7804:f9f0::/44 list=CN
+add address=2a0f:7807::/32 list=CN
 add address=2a0f:7d07::/32 list=CN
 add address=2a0f:85c1:ba5::/48 list=CN
 add address=2a0f:85c1:ca0::/44 list=CN
@@ -5644,6 +5646,7 @@ add address=2a13:a5c7:2121::/48 list=CN
 add address=2a13:a5c7:2301::/48 list=CN
 add address=2a13:a5c7:2302::/48 list=CN
 add address=2a13:a5c7:23c0::/42 list=CN
+add address=2a13:a5c7:2600::/40 list=CN
 add address=2a13:a5c7:2801::/48 list=CN
 add address=2a13:a5c7:3108::/48 list=CN
 add address=2a13:a5c7:31a0::/43 list=CN
